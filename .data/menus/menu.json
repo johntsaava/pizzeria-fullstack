@@ -1,0 +1,20 @@
+{
+  "2qi4kemd4odhkbgtlbyy": {
+    "name": "The Meats",
+    "price": 1699,
+    "description": "Pepperoni, ham, italian sausage, mozzarella, bacon, marinara sauce, and basil.",
+    "img": "/public/pizza.svg"
+  },
+  "16rmegrsx8g8e72nmcn8": {
+    "name": "Cheese",
+    "price": 1150,
+    "description": "Mozzarella, marinara sauce, and basil.",
+    "img": "/public/pizza.svg"
+  },
+  "j1w4b635706whuarfn3w": {
+    "name": "Supreme",
+    "price": 1600,
+    "description": "Marinara sauce, pepperoni, basil, mozzarella, italian sausage, bacon, mushrooms, red onions, black olives, and green peppers.",
+    "img": "/public/pizza.svg"
+  }
+}

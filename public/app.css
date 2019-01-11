@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,900");
+body {
+  font-family: "Roboto", sans-serif;
+  background: #202022 url("bg.png") no-repeat fixed left 100px;
+  background-size: auto 120%;
+  color: #eee;
+}
+.menuPage {
+  background: #202022;
+}
+a {
+  color: #eee;
+}
+a:hover {
+  color: #f3752b;
+}
+.button {
+  display: inline-block;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 1px solid #f3752b;
+  color: #eee;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button:hover {
+  color: #f3752b;
+}
+label {
+  font-size: 14px;
+  font-weight: 300;
+}
+input {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 0;
+  margin: 0 0 20px 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #f3752b;
+}
+input::placeholder {
+  color: #888;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+}
+input[type="text"]:disabled {
+  color: #888;
+  border-color: #888;
+}
+input[type="checkbox"] {
+  margin: 5px 0 20px 0;
+}
+h1 {
+  color: #f3752b;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.sessionCreate .content,
+.accountCreate .content,
+.accountEdit .content {
+  width: 100%;
+  max-width: 400px;
+}
+.content {
+  align-self: center;
+  padding: 40px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.index .content {
+  align-self: flex-end;
+}
+.menuPage .content {
+  padding: 0;
+  background-color: transparent;
+}
+.accountEdit form {
+  margin-bottom: 40px;
+}
+.accountEdit form:last-child {
+  margin: 0;
+}
+.formError {
+  display: none;
+  background-color: rgba(200, 55, 55, 0.6);
+  color: #fff;
+  padding: 10px 15px;
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  text-align: center;
+}
+.formSuccess {
+  display: none;
+  background-color: rgba(33, 120, 68, 0.6);
+  color: #fff;
+  padding: 10px 15px;
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  text-align: center;
+}
+.warning {
+  color: #f7f313;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  line-height: 150%;
+  margin: 0 0 20px 0;
+}
+.header ul li.loggedIn {
+  display: none;
+}
+body.loggedIn .header ul li.loggedIn {
+  display: inline-block;
+}
+body.loggedIn .header ul li.loggedOut {
+  display: none;
+}
+#menuList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+.footer {
+  align-self: flex-end;
+  margin: 15px 0;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu li a {
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 30px;
+}
+.menu li a:hover {
+  color: #f3752b;
+}
+.logo {
+  font-size: 36px;
+  margin-right: 15px;
+  font-weight: 900;
+  text-decoration: none;
+  color: #f3752b;
+}
+.greeting h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 800;
+  margin: 0 0 10px 0;
+}
+.greeting h2 {
+  color: #bbb;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0 0 30px 0;
+}
+.greeting span {
+  margin: 0 7px;
+}
+.greeting a:hover {
+  color: #f3752b;
+}
+.card {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  margin: 30px 0;
+}
+.card img {
+  width: 100%;
+}
+.card .title {
+  font-weight: 800;
+  margin: 10px 0 0 0;
+  color: #f3752b;
+}
+.card .info {
+  line-height: 25px;
+  margin: 20px 0;
+}
+.card .price {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+}
+.card .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#emptyCartMessage td {
+  font-weight: 300;
+}
+#emptyCartMessage {
+  display: none;
+}
+#cartTable {
+  margin-bottom: 30px;
+}
+#cartTable img {
+  width: 100%;
+  max-width: 100px;
+}
+#cartTable th {
+  color: #f3752b;
+}
+#cartTable td {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+@media only screen and (max-width: 650px) {
+  .header {
+    flex-direction: column;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu li a {
+    margin: 20px 0;
+  }
+  .greeting h1 {
+    font-size: 40px;
+  }
+  .greeting h2 {
+    font-size: 18px;
+  }
+  .logo {
+    margin: 0 0 15px 0;
+  }
+  .wrapper {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .cartPage .content {
+    padding: 0;
+    background-color: transparent;
+  }
+  .menuPage .wrapper {
+    background-color: transparent;
+  }
+  #menuList {
+    justify-content: center;
+  }
+}
